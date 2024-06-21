@@ -1,6 +1,6 @@
 default: clean datapack
 
-VERSION := 1.3.0-1.20.5
+VERSION := 1.3.0-1.21
 
 clean:
 	rm -f *.zip
