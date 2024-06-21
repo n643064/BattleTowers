@@ -1,0 +1,19 @@
+{
+    "condition": "minecraft:all_of",
+    "terms": [
+      {
+        "condition": "minecraft:random_chance",
+        "chance": 0.03
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "targeted_entity": {
+            "type": "minecraft:player"
+          }
+        }
+      }
+    ]
+  }
+  

@@ -1,0 +1,1 @@
+execute as @e[tag=bt_baller] at @s if predicate battle_towers:baller_test run function battle_towers:fireball

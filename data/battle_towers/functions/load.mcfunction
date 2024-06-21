@@ -1,0 +1,1 @@
+execute unless data storage battle_towers {Setup:1} run function battle_towers:setup
