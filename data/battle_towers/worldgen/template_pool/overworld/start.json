@@ -1,15 +1,14 @@
 {
-  "name": "battle_towers:overworld/start",
   "fallback": "minecraft:empty",
   "elements": [
     {
       "weight": 1,
-      "element":
-      {
-        "location": "battle_towers:overworld/start",
-        "processors": "battle_towers:tower_flavor",
+      "element": {
+        "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "element_type": "minecraft:single_pool_element"
+        "location": "battle_towers:overworld/start",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "battle_towers:tower_flavor"
       }
     }
   ]

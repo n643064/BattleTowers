@@ -1,27 +1,25 @@
 {
-    "name": "battle_towers:overworld/floor",
-    "fallback": "battle_towers:overworld/fallback",
-    "elements": [
-      {
-        "weight": 9,
-        "element":
-        {
-          "location": "battle_towers:overworld/floor",
-          "processors": "battle_towers:tower_flavor",
-          "projection": "rigid",
-          "element_type": "minecraft:single_pool_element"
-        }
-      },
-      {
-        "weight": 1,
-        "element":
-        {
-          "location": "battle_towers:overworld/top",
-          "processors": "battle_towers:tower_flavor",
-          "projection": "rigid",
-          "element_type": "minecraft:single_pool_element"
-        }
+  "fallback": "battle_towers:overworld/fallback",
+  "elements": [
+    {
+      "weight": 9,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "battle_towers:overworld/floor",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "battle_towers:tower_flavor"
       }
-    ]
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "battle_towers:overworld/top",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "battle_towers:tower_flavor"
+      }
+    }
+  ]
 }
-  
