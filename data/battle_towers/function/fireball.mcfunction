@@ -16,8 +16,8 @@ scoreboard players operation #fireballX battle_towers_pos -= #casterX battle_tow
 scoreboard players operation #fireballY battle_towers_pos -= #casterY battle_towers_pos
 scoreboard players operation #fireballZ battle_towers_pos -= #casterZ battle_towers_pos
 
-execute store result entity @e[type=minecraft:fireball, tag=battle_towers_fireball, limit=1] power[0] double 0.0001 run scoreboard players get #fireballX battle_towers_pos
-execute store result entity @e[type=minecraft:fireball, tag=battle_towers_fireball, limit=1] power[1] double 0.0001 run scoreboard players get #fireballY battle_towers_pos
-execute store result entity @e[type=minecraft:fireball, tag=battle_towers_fireball, limit=1] power[2] double 0.0001 run scoreboard players get #fireballZ battle_towers_pos
+execute store result entity @e[type=minecraft:fireball, tag=battle_towers_fireball, limit=1] Motion[0] double 0.0001 run scoreboard players get #fireballX battle_towers_pos
+execute store result entity @e[type=minecraft:fireball, tag=battle_towers_fireball, limit=1] Motion[1] double 0.0001 run scoreboard players get #fireballY battle_towers_pos
+execute store result entity @e[type=minecraft:fireball, tag=battle_towers_fireball, limit=1] Motion[2] double 0.0001 run scoreboard players get #fireballZ battle_towers_pos
 
 tag @e[tag=battle_towers_fireball] remove battle_towers_fireball
