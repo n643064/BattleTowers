@@ -1,17 +1,15 @@
 {
-    "name": "battle_towers:overworld/fallback",
-    "fallback": "minecraft:empty",
-    "elements": [
-      {
-        "weight": 1,
-        "element":
-        {
-          "location": "battle_towers:overworld/top",
-          "processors": "minecraft:mossify_20_percent",
-          "projection": "rigid",
-          "element_type": "minecraft:single_pool_element"
-        }
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "battle_towers:overworld/top",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "minecraft:mossify_20_percent"
       }
-    ]
+    }
+  ]
 }
-  

@@ -1,65 +1,64 @@
 {
-  "name": "battle_towers:overworld/additions",
   "fallback": "minecraft:empty",
   "elements": [
     {
       "weight": 2,
-      "element":
-      {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
         "location": "battle_towers:spawners/spawner_zombie",
-        "processors": "minecraft:empty",
-        "projection": "rigid",
-        "element_type": "minecraft:single_pool_element"
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "minecraft:empty"
       }
     },
     {
       "weight": 2,
-      "element":
-      {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
         "location": "battle_towers:spawners/spawner_spider",
-        "processors": "minecraft:empty",
-        "projection": "rigid",
-        "element_type": "minecraft:single_pool_element"
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "minecraft:empty"
       }
     },
     {
       "weight": 2,
-      "element":
-      {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
         "location": "battle_towers:spawners/spawner_skeleton",
-        "processors": "minecraft:empty",
-        "projection": "rigid",
-        "element_type": "minecraft:single_pool_element"
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "minecraft:empty"
       }
     },
     {
       "weight": 1,
-      "element":
-      {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
         "location": "battle_towers:spawners/spawner_cave_spider",
-        "processors": "minecraft:empty",
-        "projection": "rigid",
-        "element_type": "minecraft:single_pool_element"
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "minecraft:empty"
       }
     },
     {
       "weight": 1,
-      "element":
-      {
-        "location": "battle_towers:spawners/spawner_husk",
-        "processors": "minecraft:empty",
+      "element": {
+        "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "element_type": "minecraft:single_pool_element"
+        "location": "battle_towers:spawners/spawner_husk",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "minecraft:empty"
       }
     },
     {
       "weight": 2,
-      "element":
-      {
-        "location": "battle_towers:spawners/spawner_stray",
-        "processors": "minecraft:empty",
+      "element": {
+        "element_type": "minecraft:single_pool_element",
         "projection": "rigid",
-        "element_type": "minecraft:single_pool_element"
+        "location": "battle_towers:spawners/spawner_stray",
+        "override_liquid_settings": "ignore_waterlogging",
+        "processors": "minecraft:empty"
       }
     }
   ]
