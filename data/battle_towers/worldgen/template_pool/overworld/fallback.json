@@ -7,7 +7,7 @@
         "element":
         {
           "location": "battle_towers:overworld/top",
-          "processors": "minecraft:mossify_20_percent",
+          "processors": "battle_towers:tower_flavor",
           "projection": "rigid",
           "element_type": "minecraft:single_pool_element"
         }
