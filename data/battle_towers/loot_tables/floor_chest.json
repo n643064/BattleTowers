@@ -6,42 +6,42 @@
         {
           "type": "minecraft:loot_table",
           "name": "minecraft:chests/simple_dungeon",
-          "weight": 6
+          "weight": 12
         },
         {
           "type": "minecraft:loot_table",
           "name": "minecraft:chests/village/village_mason",
-          "weight": 4
+          "weight": 8
         },
         {
           "type": "minecraft:loot_table",
           "name": "minecraft:chests/stronghold_crossing",
-          "weight": 5
+          "weight": 10
         },
         {
           "type": "minecraft:loot_table",
           "name": "minecraft:chests/igloo_chest",
-          "weight": 5
+          "weight": 10
         },
         {
           "type": "minecraft:loot_table",
           "name": "minecraft:chests/village/village_fletcher",
-          "weight": 4
+          "weight": 8
         },
         {
           "type": "minecraft:loot_table",
           "name": "minecraft:chests/village/village_weaponsmith",
-          "weight": 6
+          "weight": 12
         },
         {
           "type": "minecraft:loot_table",
           "name": "minecraft:chests/village/village_toolsmith",
-          "weight": 6
+          "weight": 12
         },
         {
           "type": "minecraft:loot_table",
           "name": "minecraft:chests/village/village_armorer",
-          "weight": 6
+          "weight": 12
         },
         {
           "type": "minecraft:loot_table",
