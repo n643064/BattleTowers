@@ -1,55 +1,54 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:loot_table",
-            "value": "minecraft:chests/simple_dungeon",
-            "weight": 6
-          },
-          {
-            "type": "minecraft:loot_table",
-            "value": "minecraft:chests/stronghold_library",
-            "weight": 2
-          },
-          {
-            "type": "minecraft:loot_table",
-            "value": "minecraft:chests/stronghold_crossing",
-            "weight": 4
-          },
-          {
-            "type": "minecraft:loot_table",
-            "value": "minecraft:chests/stronghold_corridor",
-            "weight": 4
-          },
-          {
-            "type": "minecraft:loot_table",
-            "value": "minecraft:chests/shipwreck_treasure",
-            "weight": 2
-          },
-          {
-            "type": "minecraft:loot_table",
-            "value": "minecraft:chests/village/village_weaponsmith",
-            "weight": 3
-          },
-          {
-            "type": "minecraft:loot_table",
-            "value": "minecraft:chests/village/village_toolsmith",
-            "weight": 3
-          },
-          {
-            "type": "minecraft:loot_table",
-            "value": "minecraft:chests/woodland_mansion",
-            "weight": 2
-          },
-          {
-            "type": "minecraft:loot_table",
-            "value": "minecraft:chests/end_city_treasure",
-            "weight": 1
-          }
-        ]
-      }
-    ]
-  }
-  
+  "pools": [
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:chests/simple_dungeon",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:chests/village/village_mason",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:chests/stronghold_crossing",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:chests/igloo_chest",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:chests/village/village_fletcher",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:chests/village/village_weaponsmith",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:chests/village/village_toolsmith",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:chests/village/village_armorer",
+          "weight": 12
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "battle_towers:treasure",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}
