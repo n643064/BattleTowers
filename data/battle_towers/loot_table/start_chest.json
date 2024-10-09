@@ -1,0 +1,53 @@
+{
+    "pools": [
+      {
+        "rolls": 5,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "minecraft:chests/village/village_tannery",
+            "weight": 2,
+            "quality": 3
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:cobblestone",
+            "weight": 3,
+            "quality": 2,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "type": "minecraft:binomial",
+                  "n": 10,
+                  "p": 64
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "battle_towers:stone_tools",
+            "weight": 2,
+            "quality": 3
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "minecraft:entities/zombie",
+            "weight": 5,
+            "quality": 1,
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": {
+                  "min": 1,
+                  "max": 5
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -8,7 +8,7 @@
         "projection": "rigid",
         "location": "battle_towers:overworld/top",
         "override_liquid_settings": "ignore_waterlogging",
-        "processors": "minecraft:mossify_20_percent"
+        "processors": "battle_towers:tower_flavor"
       }
     }
   ]

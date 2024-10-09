@@ -1,0 +1,28 @@
+{
+    "pools": [
+      {
+        "rolls": 6,
+        "entries": [
+          {
+            "type": "minecraft:loot_table",
+            "value": "battle_towers:treasure",
+            "weight": 1,
+            "quality": 8
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "minecraft:chests/simple_dungeon",
+            "weight": 6,
+            "quality": 2
+          },
+          {
+            "type": "minecraft:loot_table",
+            "value": "minecraft:chests/village/village_weaponsmith",
+            "weight": 4,
+            "quality": 4
+          }
+        ]
+      }
+    ]
+  }
+  

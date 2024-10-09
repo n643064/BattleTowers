@@ -9,55 +9,8 @@
           },
           "input_predicate": {
             "predicate_type": "minecraft:random_block_match",
-            "block": "minecraft:smooth_stone_slab",
-            "probability": 0.2
-          },
-          "output_state": {
-            "Name": "minecraft:smooth_stone_slab",
-            "Properties": {
-              "type": "top",
-              "waterlogged": "false"
-            }
-          }
-        },
-        {
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
-          },
-          "input_predicate": {
-            "predicate_type": "minecraft:random_block_match",
-            "block": "minecraft:smooth_stone_slab",
-            "probability": 0.01
-          },
-          "output_state": {
-            "Name": "minecraft:smooth_stone_slab",
-            "Properties": {
-              "waterlogged": "false",
-              "type": "bottom"
-            }
-          }
-        },
-        {
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
-          },
-          "input_predicate": {
-            "predicate_type": "minecraft:random_block_match",
-            "block": "minecraft:smooth_stone_slab",
-            "probability": 0.02
-          },
-          "output_state": {
-            "Name": "minecraft:air"
-          }
-        },
-        {
-          "location_predicate": {
-            "predicate_type": "minecraft:always_true"
-          },
-          "input_predicate": {
-            "predicate_type": "minecraft:random_block_match",
             "block": "minecraft:cobblestone",
-            "probability": 0.05
+            "probability": 0.2
           },
           "output_state": {
             "Name": "minecraft:mossy_cobblestone"
@@ -65,19 +18,16 @@
         },
         {
           "location_predicate": {
-            "predicate_type": "minecraft:always_true"
+            "predicate_type": "minecraft:random_block_match",
+            "block": "minecraft:stone_slab",
+            "probability": 0.1
           },
           "input_predicate": {
-            "predicate_type": "minecraft:random_block_match",
-            "block": "minecraft:cobblestone",
-            "probability": 0.05
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:stone_slab"
           },
           "output_state": {
-            "Name": "minecraft:cobblestone_slab",
-            "Properties": {
-              "type": "bottom",
-              "waterlogged": "false"
-            }
+            "Name": "minecraft:air"
           }
         }
       ]
