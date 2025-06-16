@@ -1,14 +1,14 @@
 {
   "structures": [
     {
-      "structure": "battle_towers:overworld",
+      "structure": "battle_towers:nether",
       "weight": 1
     }
   ],
   "placement": {
     "type": "minecraft:random_spread",
-    "salt": 56756869,
-    "spacing": 24,
+    "salt": 23456734,
+    "spacing": 22,
     "separation": 18
   }
 }

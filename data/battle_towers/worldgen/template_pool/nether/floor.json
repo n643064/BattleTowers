@@ -1,0 +1,27 @@
+{
+    "name": "battle_towers:nether/floor",
+    "fallback": "battle_towers:nether/fallback",
+    "elements": [
+      {
+        "weight": 9,
+        "element":
+        {
+          "location": "battle_towers:nether/floor",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      },
+      {
+        "weight": 1,
+        "element":
+        {
+          "location": "battle_towers:nether/top",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      }
+    ]
+}
+  

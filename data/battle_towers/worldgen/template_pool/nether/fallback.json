@@ -1,0 +1,17 @@
+{
+    "name": "battle_towers:nether/fallback",
+    "fallback": "minecraft:empty",
+    "elements": [
+      {
+        "weight": 1,
+        "element":
+        {
+          "location": "battle_towers:nether/top",
+          "processors": "minecraft:empty",
+          "projection": "rigid",
+          "element_type": "minecraft:single_pool_element"
+        }
+      }
+    ]
+}
+  
